@@ -27,7 +27,7 @@ public class ExceptionTest {
     @Test
     public void setInvalidSexLion() throws Exception {
         try {
-            Lion lion = new Lion("Кабель", feline);
+            Lion lion = new Lion("Неизвестно", feline);
             Assert.fail("Expected Exception");
         } catch (Exception exception) {
             System.out.println(exception);
